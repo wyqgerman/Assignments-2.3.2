@@ -1,10 +1,8 @@
 ﻿namespace Assignments_2._3._2
 {
-    using System;
-
     class Tip
     {
-        static void Main()
+        static void Main(string[] args)
         {
             Console.Write("Enter the total bill amount: ");
             decimal billTotal = decimal.Parse(Console.ReadLine());
